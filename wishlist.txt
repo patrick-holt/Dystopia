@@ -1,6 +1,6 @@
 TODO:
-Optional - Better task-management - Look at 'Trello' (TitanPad...)
-Optional - Create GitHub/bitBucket because reason
+DONE - Better task-management - Look at 'Trello' (TitanPad...)
+DONE - Create GitHub/bitBucket because reason
 Open/create the gamemode on Steam Workshop
 Pull in some simple plugins/features from DarkRP/HL2RP
 Start diving into Lua programming.
