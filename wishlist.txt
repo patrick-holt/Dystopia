@@ -1,1 +1,156 @@
+TODO:
+Optional - Better task-management - Look at 'Trello' (TitanPad...)
+Optional - Create GitHub/bitBucket because reason
+Open/create the gamemode on Steam Workshop
+Pull in some simple plugins/features from DarkRP/HL2RP
+Start diving into Lua programming.
+Learn how to netcode :(
+Required - Slowly die from boredom and University workload, preventing you from doing any kind of free time project. 
+Implement fun
+
+CATAGORIES OF INDIVIDUALS
+
+  GUBERNENT!
+    Administrator (Mayor) - 1 Position
+    Overseer              - 1 Position
+    Combine Officer       - 1 Position
+    Civil Protection      - 4 Positions
+    Medical Personnel     - 1-2 Positions
+
+  ANTI-GUBERNENT!
+    Rebels                   - 5? Positions
+    Black Market Contractor? - 1-2 Positions
+    
+  Civilian (Neutral)
+    Merchant - 3-4 Positions
+    Chef/Cook/Foodsomething  - 1-2 Positions
+    Citizen - Resterende Positions
+
+
+ITEMS:
+  Guns
+    Low-tech avalibel through black market (SKS, Mosin, AK etc basic slav shit)
+    High-tech available to Combine (AR2, hightech stuff modified from HL2)
+    Low-tech < High-tech damage, recoil, range, rpm etc
+    
+  Melee weapons
+    Short ranged and long range
+    
+  Medicine
+    Low-tech available for hand-purchase (bandages)
+    Cognitive boosters (increased accuracy for a limited time)
+    
+  Currency
+    Coupons act as a form of currency
+    ??? Rations, which contain Coupons, are free but are only distributed once a day within a certain timeframe 
+    If you dont show you wont get any food
+    Coupons distributed through rations at a designated location
+    Civilian given low quality rations (a slight upgrade from junk food)
+    Cumboones given higher quality rations (possibly containing benefits)
+
+  Outfits
+    Uniforms (workers, combine etc.)
+    Formel clothing and "poor mans" clothing
+
+  Food and Drinks
+    Apart from rations (grey goo) there is a variety of rare foods and drinks, expired long ago, but still sold for high prices.
+
+  General equipment
+    Flashlights
+    Backpacks (decrease weight of items)
+
+  Tech/Science stuff?
+    Radios (radios needed to communicate through voicechat over distances (or chat))
+    Gasmasks
+
+  Keys that indicate ownership and allows for opening specific doors
+    Possibly ID cards to prove citizenship (could be combined with keys) 
+
+
+GAME-MECHANIC
+
+  Damage System
+    Damage multipliers for diffrent body parts
+    Shot in the head is a kill
+    Shot in the arms give a chance of dropping weapon
+    Shot in the legs will temporarily criple
+    Bleeding (muh bandages)
+    Rip outfit apart for bandages
+
+  Loyalty system (think of some cool names)
+    Citizens will gain some kind of point for when an Officer decide that a Citizen has sufficiently helped him or something along the lines of that
+    After gaining X amount of points a Citizen will recieve incrementally better rations depending on how many points he has. For example:
+    0 - Citizen recieves a low quality ration
+    5 - Citizen recieves a medium quality ration along with a small increase of coupons
+    10 - Citizen recieves a ration on par with that of Police Department
+    Maybe some other stuff
+
+  Disloyalty System
+    Same as the Loyalty Sytem but flipped
+    Everytime an individual does something of illegal nature he is given a point
+    A Citizen with more than 3 (maybe more - harsh punishment please this isnt happy go fun time combines) points is automaticly marked as an enemy of the state and is to be terminated ASAP
+    This system runs along side of the Loyalty system, meaning a Citizen with 6 loyalty points can still be terminated if he recieve enough disloyalty points
+
+  Weather 
+    Affects body temperature. Inlcuded but not limited to:
+    Rain, snow, sunny, cloudy, windy
+    How to not die of that? Be inside/fires/clothing/running/
+
+  Day/Night Cycle
+    Seasons (e.g. snows more in different periods)
+
+  Weight of items, affects stamina. (i.e full inventory of rocks will slow you down)
+
+  Hunger (Need to eat once or twice everyday day)
+    Low/high energy, long/short term
+    Junkfood lowers stamina and max health for a period of time
+
+  Stamina
+    Certian food heightens it for a time
+    Energy drinks give a temprary boost, but gives a small debuff for X amount of time before it wears off
+
+  HUD
+
+    Shitty stupid retarded name system so you have to possibly break your fucking fingers pressing a retarded fuckin idiot button every time you want incompetent retards to know your stupid fuckin name
+    
+    Players have the option to add a description of their character
+
+  No health bar - Health indicated by saturation
+
+  No ammo count on your weapon - Keep track of that shit
+
+  Small OOC menu/MOTD
+
+  Hunger/Stamina Indicated by sounds
+
+  Combine
+    Have actual health indication due to visor
+    Scanlines making it slightly harder to view things at a distance
+    Black shadows around the corners of the screen
+    Crackle when using mic
+    Heavy footsteps when running due to equipment (for maximum OH SHIT ITS THE FUZZ moments)
+    Indicator of the current loyalty of a person is shown if close enough
+
+  Menu for current stats of hunger etc.
+
+  Character Creation
+
+  Trait system
+    A benefit with a drawback. Examples:
+    Fast Runner - Runs faster than normal, but cannot run for long
+    Steady Shot - Better accuracy but slower fire rate
+    Wild Fire - Higher fire rate but lower accuracy
+    Vitality - Higher maxhealth, but lower stamina
+    Endurance - More stamina, but less maxhealth
+
+  Persistence
+    Items stay where they are dropped for 24 hours
+    Lootable Bodies!
+    Inventory is saved - Even guns equipped
+    Position where you log out is saved
+    ??? current job saved as well - depends of how realistic we are going. This also brings up stuff as whitelist for jobs etc
+
+    Voice chat in vicinity, muffled through doors, blocked by walls
+
+
 
