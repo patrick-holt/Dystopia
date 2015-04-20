@@ -1,10 +1,3 @@
---
--- Created by IntelliJ IDEA.
--- User: General
--- Date: 16/04/2015
--- Time: 09:15
--- To change this template use File | Settings | File Templates.
---
 
 AddCSLuaFile()
 
