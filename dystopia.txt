@@ -1,0 +1,11 @@
+"Dystopia"
+{
+	"base"		"base"
+	"title"		"Dystopia"
+	"maps"		"^rp_"
+	"menusystem"	"1"
+
+	"settings"
+	{
+	}
+}
