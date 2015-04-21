@@ -2,8 +2,12 @@
 {
 	"base"		"base"
 	"title"		"Dystopia"
-	"maps"		"^rp_"
+	"version"   "0"
+	"maps"	    "^rp_"
 	"menusystem"	"1"
+
+    "author_name"   "GeneralIssues, Holt, Musk"
+    "author_url"    "https://github.com/Holt95/Dystopia"
 
 	"settings"
 	{
