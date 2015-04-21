@@ -2,7 +2,7 @@
 {
 	"base"		"base"
 	"title"		"Dystopia"
-	"version"	 "0"
+	"version"	"0"
 	"maps"	    	"^rp_"
 	"menusystem"	"1"
 	
