@@ -1,5 +1,5 @@
 GM.Name = "Dystopia"
-GM.Author = "FrPaCa"
+GM.Author = "Musk, Holt, GeneralIssues"
 GM.Email = "N/A"
 GM.Website = "N/A"
 
