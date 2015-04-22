@@ -8,7 +8,7 @@
 	
 	"author_name"   "GeneralIssues, Holt, Musk"
 	"author_url"    "https://github.com/Holt95/Dystopia"
-	"author_mail"   "no"
+	"author_mail"   "None"
 
 	"settings"
 	{
