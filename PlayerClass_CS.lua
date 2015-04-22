@@ -34,6 +34,7 @@ PLAYER.Stamina                  = 20
 PLAYER.BodyHeat                 = 37
 PLAYER.Hunger                   = 0
 
+-- What happens to the players loadout when he spawns
 function PLAYER:Loadout()
 
    -- self.Player:RemoveAllWeapons()
@@ -45,6 +46,7 @@ function PLAYER:Loadout()
 
 end
 
+-- Sets the player model
 function PLAYER:SetModel()
 
     local cl_playermodel = self.Player:GetInfo( "cl_playermodel" )
@@ -110,4 +112,5 @@ function PLAYER:GetHandsModel()
 
 end
 
+-- registers the class like so (name, player, baseclass)
 player_manager.RegisterClass( "Citizen", PLAYER, "player_default" )
