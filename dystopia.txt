@@ -1,6 +1,6 @@
 "Dystopia"
 {
-	"base"		"base"
+	"base"		"sandbox"
 	"title"		"Dystopia"
 	"version"	"0"
 	"maps"	    	"^rp_"
