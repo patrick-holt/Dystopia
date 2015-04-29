@@ -9,7 +9,7 @@ local Class = {}
 --
 
 -- Standard variables
-Class.DisplayName			    = "Citizen"
+Class.DisplayName			    = "Rebel"
 
 Class.WalkSpeed                 = 400		-- How fast to move when not running
 Class.RunSpeed				    = 600		-- How fast to move when running
@@ -35,10 +35,10 @@ Class.Hunger                   = 0
 
 -- What happens to the players loadout when he spawns
 function Class:Loadout()
-   Class.RemoveAllWeapons()
-   Class.RemoveAllItems()
-   Class.RemoveAllAmmo()
-   Class.GiveItem( "ID_Card" )
+    Class.RemoveAllWeapons()
+    Class.RemoveAllItems()
+    Class.RemoveAllAmmo()
+    Class.GiveItem( "ID_Card" )
 
 end
 --
@@ -126,4 +126,4 @@ function Class:GetHandsModel()
 end
 
 -- registers the class like so (name, player, baseclass)
-player_manager.RegisterClass( "player_citizen", Class, "player_default" )
+player_manager.RegisterClass( "player_rebel", Class, "player_default" )

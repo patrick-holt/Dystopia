@@ -9,7 +9,7 @@ local Class = {}
 --
 
 -- Standard variables
-Class.DisplayName			    = "Citizen"
+Class.DisplayName			    = "Merchant"
 
 Class.WalkSpeed                 = 400		-- How fast to move when not running
 Class.RunSpeed				    = 600		-- How fast to move when running
@@ -126,4 +126,4 @@ function Class:GetHandsModel()
 end
 
 -- registers the class like so (name, player, baseclass)
-player_manager.RegisterClass( "player_citizen", Class, "player_default" )
+player_manager.RegisterClass( "player_merchant", Class, "player_default" )
