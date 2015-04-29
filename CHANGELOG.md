@@ -2,6 +2,7 @@
 ### Added
 - This change log (remember to update)
 - For new features
+- Added citizen player class 2015-04-29
 
 ### Changed
 - For changes in existing functionality.
