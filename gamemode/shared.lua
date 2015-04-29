@@ -8,12 +8,12 @@ DeriveGamemode( "sandbox" )
 AddCSLuaFile( "player_classes/class_citizen.lua" )
 include( "player_classes/class_citizen.lua" )
 
-team.SetUp(1, "Combines", Color(220,110,110) )
-team.SetUp(2, "Citizens", Color(10,10,110)   )
-team.SetUp(3, "Rebels"  ,   Color(50,220,50) )
+team.SetUp(1, "Combines", Color(0,0,255) ) -- Combines have the colour Blue
+team.SetUp(2, "Citizens", Color(0,255,0)   ) -- Citizens have the colour Green
+team.SetUp(3, "Rebels"  , Color(255,10,10)   ) -- Rebels have the colour Red
 
 
-
+-- Executes when the server initializes and again when the client initializes
 function GM:Initialize()
     print("welcome to this silly server og RP'ing. Remember, this is a muslim server.")
 end

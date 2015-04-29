@@ -8,7 +8,7 @@
 - For changes in existing functionality.
 
 ### Deprecated
-- For once-stable features removed in upcomming releases.
+- For once-stable features removed in upcoming releases.
 
 ### Removed
 - For deprecated features removed in this release.

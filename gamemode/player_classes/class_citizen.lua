@@ -3,6 +3,7 @@ AddCSLuaFile()
 DEFINE_BASECLASS( "player_default" )
 
 local Class = {}
+
 --
 -- See gamemodes/base/player_class/player_default.lua for all overridable variables
 --
@@ -10,15 +11,15 @@ local Class = {}
 -- Standard variables
 Class.DisplayName			    = "Citizen"
 
-Class.WalkSpeed                 = 900		-- How fast to move when not running
+Class.WalkSpeed                 = 400		-- How fast to move when not running
 Class.RunSpeed				    = 600		-- How fast to move when running
-Class.CrouchedWalkSpeed	        = 1.5		-- Multiply move speed by this when crouching
+Class.CrouchedWalkSpeed	        = 0.3		-- Multiply move speed by this when crouching
 Class.DuckSpeed			        = 0.3		-- How fast to go from not ducking, to ducking
 Class.UnDuckSpeed			    = 0.3		-- How fast to go from ducking, to not ducking
-Class.JumpPower			        = 900		-- How powerful our jump should be
+Class.JumpPower			        = 200		-- How powerful our jump should be
 Class.CanUseFlashlight		    = true		-- Can we use the flashlight
-Class.MaxHealth			        = 500		-- Max health we can have
-Class.StartHealth			    = 500		-- How much health we start with
+Class.MaxHealth			        = 100		-- Max health we can have
+Class.StartHealth			    = 100		-- How much health we start with
 Class.StartArmor			    = 0			-- How much armour we start with
 Class.DropWeaponOnDie  		    = true		-- Do we drop our weapon when we die
 Class.TeammateNoCollide	        = false		-- Do we collide with teammates or run straight through them
@@ -38,8 +39,8 @@ function Class:Loadout()
    -- self.Player:RemoveAllWeapons()
    -- self.Player:RemoveAllItems()
    -- self.Player:RemoveAllAmmo()
-    self.Player:GiveAmmo( 256, 	"Pistol", 		true )
-    self.Player:GiveItem( "weapon_pistol" )
+    self.Class:GiveAmmo( 256, 	"Pistol", 		true )
+    self.Class:GiveItem( "weapon_pistol" )
    -- self.Player:GiveItem( "ID_Card" )
 
 end
