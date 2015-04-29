@@ -1,3 +1,5 @@
+-- This file is for server-side initialization
+
 AddCSLuaFile( "cl_init.lua" )
 AddCSLuaFile( "shared.lua" )
 
