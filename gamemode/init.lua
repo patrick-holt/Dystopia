@@ -3,7 +3,7 @@
 AddCSLuaFile( "cl_init.lua" )
 AddCSLuaFile( "shared.lua" )
 
-include( "shared.lua" )
+include( "shared.lua")
 
 -- Executes when a player spawns.
 function GM:PlayerSpawn( ply )
@@ -15,4 +15,10 @@ function GM:PlayerSpawn( ply )
     player_manager.SetPlayerClass( ply, "player_citizen" )
     player_manager.OnPlayerSpawn( ply )
 
+end
+
+-- Pressable buttons
+function GM:ShowTeam( ply ) -- F4
+    umsg.Start( "TeamMenu", ply )
+    umsg.End()
 end

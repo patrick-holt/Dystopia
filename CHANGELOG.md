@@ -1,3 +1,9 @@
+## Dystopia v0.0.0 | [unreleased]
+### Added
+- Basic layer for teams created
+- Citizen player class created
+- Basic outline of team menu created (use F2 to open)
+
 ## [Unreleased][unreleased]
 ### Added
 - This change log (remember to update)

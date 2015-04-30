@@ -7,13 +7,18 @@ GM.Website = "N/A"
 
 DeriveGamemode( "sandbox" )
 
+-- Teams and Classes --
 AddCSLuaFile( "player_classes/class_citizen.lua" )
 include( "player_classes/class_citizen.lua" )
 
 team.SetUp(1, "Combines", Color(0,0,255), true ) -- Combines have the colour Blue
 team.SetUp(2, "Citizens", Color(0,255,0), true ) -- Citizens have the colour Green
 team.SetUp(3, "Rebels"  , Color(255,0,0), true ) -- Rebels have the colour Red
+-- -- -- -- -- -- -- --
 
+-- Menus
+AddCSLuaFile( "menus/cl_chooseteam.lua" )
+include( "menus/cl_chooseteam.lua" )
 
 -- Executes when the server initializes and again when the client initializes
 function GM:Initialize()
