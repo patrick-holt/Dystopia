@@ -12,7 +12,7 @@ function GM:PlayerSpawn( ply )
     print( "The player \"" .. ply:GetName() .. "\" has respawned." )
 
     -- Sets the newly spawned player's class to be a citizen
-    player_manager.SetPlayerClass( ply, "player_citizen" )
+    player_manager.SetPlayerClass( ply, "cit_citizen" )
     player_manager.OnPlayerSpawn( ply )
 
 end
