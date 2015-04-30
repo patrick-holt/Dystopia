@@ -11,18 +11,18 @@ local Class = {}
 -- Standard variables
 Class.DisplayName		= "Citizen"
 
-Class.WalkSpeed			= 400		-- How fast to move when not running
-Class.RunSpeed			= 600		-- How fast to move when running
-Class.CrouchedWalkSpeed		= 0.3		-- Multiply move speed by this when crouching
+Class.WalkSpeed			= 250		-- How fast to move when not running
+Class.RunSpeed			= 500		-- How fast to move when running
+Class.CrouchedWalkSpeed	= 0.3		-- Multiply move speed by this when crouching
 Class.DuckSpeed			= 0.3		-- How fast to go from not ducking, to ducking
 Class.UnDuckSpeed		= 0.3		-- How fast to go from ducking, to not ducking
 Class.JumpPower			= 200		-- How powerful our jump should be
-Class.CanUseFlashlight		= true		-- Can we use the flashlight
+Class.CanUseFlashlight	= true		-- Can we use the flashlight
 Class.MaxHealth			= 100		-- Max health we can have
 Class.StartHealth		= 100		-- How much health we start with
 Class.StartArmor		= 0		-- How much armour we start with
-Class.DropWeaponOnDie		= true		-- Do we drop our weapon when we die
-Class.TeammateNoCollide		= false		-- Do we collide with teammates or run straight through them
+Class.DropWeaponOnDie	= true		-- Do we drop our weapon when we die
+Class.TeammateNoCollide	= false		-- Do we collide with teammates or run straight through them
 Class.AvoidPlayers		= true		-- Automatically swerves around other players
 Class.UseVMHands		= true		-- Uses viewmodel hands
 
