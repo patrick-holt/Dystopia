@@ -11,5 +11,5 @@ function Class:SetModel()
 	self.Player:SetModel( "models/player/group01/male_02.mdl" )
 
 end
-modelnamee
+
 player_manager.RegisterClass( "cit_merchant", Class, "cit_citizen" )

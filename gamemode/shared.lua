@@ -22,16 +22,19 @@ AddCSLuaFile( "player_classes/com_admin.lua" )
 include( "player_classes/com_admin.lua" )
 
 AddCSLuaFile( "player_classes/com_civil.lua" )
-include( "player_classes/cit_civil.lua" )
+include( "player_classes/com_civil.lua" )
 
 AddCSLuaFile( "player_classes/com_medic.lua" )
-include( "player_classes/cit_medic.lua" )
+include( "player_classes/com_medic.lua" )
 
 AddCSLuaFile( "player_classes/com_officer.lua" )
-include( "player_classes/cit_officer.lua" )
+include( "player_classes/com_officer.lua" )
 
 AddCSLuaFile( "player_classes/com_overseer.lua" )
-include( "player_classes/cit_overseer.lua" )
+include( "player_classes/com_overseer.lua" )
+
+AddCSLuaFile( "player_classes/reb_black.lua" )
+include( "player_classes/reb_black.lua" )
 
 AddCSLuaFile( "player_classes/reb_black.lua" )
 include( "player_classes/reb_rebel.lua" )

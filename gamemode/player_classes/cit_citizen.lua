@@ -86,4 +86,4 @@ function Class:GetHandsModel()
 end
 
 -- registers the class like so (name, player, baseclass)
-player_manager.RegisterClass( "player_citizen", Class, "player_default" )
+player_manager.RegisterClass( "cit_citizen", Class, "player_default" )
